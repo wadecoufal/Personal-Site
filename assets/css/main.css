@@ -1279,6 +1279,7 @@ input, select, textarea {
 			cursor: default;
 			z-index: 1;
 			font-size: 0.9em;
+			
 		}
 
 		.poptrox-popup .nav-next,
@@ -1771,6 +1772,15 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+		.from-right {
+			position: relative;
+		}
+
+		.project-links {
+			position: absolute;
+			top: 5px;
+		}
+
 			.gallery.inactive article.from-left {
 				-moz-transform: translateX(-14em);
 				-webkit-transform: translateX(-14em);
@@ -2249,7 +2259,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background: url("images/overlay.png"), url("../../images/fulls/battle-station.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
