@@ -1777,8 +1777,12 @@ input, select, textarea {
 		}
 
 		.project-links {
-			position: absolute;
-			top: 5px;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.third-wheel {
+			left: Calc(50% - 225px);
 		}
 
 			.gallery.inactive article.from-left {
