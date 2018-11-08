@@ -1781,6 +1781,15 @@ input, select, textarea {
 			flex-direction: column;
 		}
 
+		.project-info {
+			display: flex;
+		}
+
+		.location {
+			font-size: 14px;
+    letter-spacing: 5px;
+		}
+
 		.third-wheel {
 			left: Calc(50% - 225px);
 		}
